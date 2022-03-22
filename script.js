@@ -14,9 +14,5 @@ function buttonClick() {
 
 function isEven(number) {
 
-    var result = false;
-    if (number % 2 == 0) {
-        result = true;
-    }
-    return result;
+return number%2==0
 }
